@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simple Login Page</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  
+    <div class="container" id="loginPage">
+
+        <div class="card">
+
+            <div class="icon">👤</div>
+
+            <h2>Login</h2>
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Username"
+            >
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Password"
+            >
+
+            <button id="loginBtn">Login</button>
+
+            <p class="hint">Use: admin / 1234</p>
+
+        </div>
+
+    </div>
+
+
+    
+    <div class="container hidden" id="homePage">
+
+        <div class="card">
+
+            <div class="success-icon">✓</div>
+
+            <h2>Welcome!</h2>
+
+            <p>
+                You have successfully logged in.
+            </p>
+
+            <p>
+                This is a simple page.
+            </p>
+
+            <button id="logoutBtn">Logout</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
